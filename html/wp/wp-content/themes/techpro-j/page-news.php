@@ -33,9 +33,6 @@
 			<div class="inner">
 				<div class="bg"><img src="<?php echo get_theme_file_uri('images/cta-bg.jpg'); ?>" alt=""></div><!-- end .bg -->
 				<div class="block">
-					<div class="sentence">
-						<p>サービスに関するお申し込み、ご質問、ご相談、御見積など、<br>まずはお気軽にお問い合わせください。</p>
-					</div><!-- end .sentence -->
 					<ul>
 						<li>
 							<a href="tel:03-6843-1838" class="tellnot">
