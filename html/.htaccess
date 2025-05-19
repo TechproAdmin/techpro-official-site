@@ -15,6 +15,9 @@ RewriteRule ^ - [L]
 RewriteRule ^wp/(.*)$ /wp/index.php [L]
 </IfModule>
 
+# 内見フォームのリダイレクト
+Redirect 301 /previewform https://techpro-form.web.app/naiken
+
 # BEGIN WordPress
 # "BEGIN WordPress" から "END WordPress" までのディレクティブ (行) は
 # 動的に生成され、WordPress フィルターによってのみ修正が可能です。
